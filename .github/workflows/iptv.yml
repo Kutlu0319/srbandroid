@@ -1,9 +1,8 @@
-name: IPTV Playlist Generator
+name: Generate IPTV M3U Playlist
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -11,25 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+    - name: Install dependencies
+      run: pip install requests
 
-      - name: Run IPTV script
-        run: python Mac2M3uPlaylist.py
+    - name: Run IPTV script
+      run: python Mac2M3uPlaylist.py
 
-      - name: Upload M3U artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: m3u-playlist
-          path: Mac2M3uPlaylist.m3u
+    - name: List output directory files
+      run: ls -la output
 
+    - name: Upload M3U artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: m3u-playlist
+        path: output/Mac2M3uPlaylist.m3u
