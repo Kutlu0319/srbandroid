@@ -1,0 +1,35 @@
+name: Generate M3U Playlist
+
+on:
+  workflow_dispatch:        # Elle başlatmak için GitHub'dan tetiklenebilir
+  push:                     # Koda bir değişiklik yapıldığında otomatik çalıştırır
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Kodu klonla
+      uses: actions/checkout@v3
+
+    - name: Python yükle
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Gereksinimleri yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Script'i çalıştır
+      run: |
+        python Mac2M3uPlaylist.py
+
+    - name: Çıktı M3U dosyasını artefakt olarak yükle
+      uses: actions/upload-artifact@v3
+      with:
+        name: m3u-playlist
+        path: Mac2M3uPlaylist.m3u
