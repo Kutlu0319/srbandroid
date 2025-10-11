@@ -17,11 +17,14 @@ def print_colored(text, color):
 def get_token(session, base_url, mac):
     url = f"{base_url}/portal.php?action=handshake&type=stb&token=&JsHttpRequest=1-xml"
     headers = {"Authorization": f"MAC {mac}"}
+    print_colored(f"Requesting token from: {url}", "cyan")
     try:
         res = session.get(url, headers=headers, timeout=10)
         res.raise_for_status()
         data = res.json()
-        return data["js"]["token"]
+        token = data["js"]["token"]
+        print_colored(f"Token received: {token}", "green")
+        return token
     except Exception as e:
         print_colored(f"Token error: {e}", "red")
         return None
@@ -29,6 +32,7 @@ def get_token(session, base_url, mac):
 def get_subscription(session, base_url, token):
     url = f"{base_url}/portal.php?type=account_info&action=get_main_info&JsHttpRequest=1-xml"
     headers = {"Authorization": f"Bearer {token}"}
+    print_colored(f"Requesting subscription info from: {url}", "cyan")
     try:
         res = session.get(url, headers=headers, timeout=10)
         res.raise_for_status()
@@ -45,16 +49,19 @@ def get_channel_list(session, base_url, token):
     headers = {"Authorization": f"Bearer {token}"}
     try:
         url_genre = f"{base_url}/server/load.php?type=itv&action=get_genres&JsHttpRequest=1-xml"
+        print_colored(f"Requesting genres from: {url_genre}", "cyan")
         res_genre = session.get(url_genre, headers=headers, timeout=10)
         res_genre.raise_for_status()
         genre_data = res_genre.json()["js"]
         group_info = {group["id"]: group["title"] for group in genre_data}
 
         url_channels = f"{base_url}/portal.php?type=itv&action=get_all_channels&JsHttpRequest=1-xml"
+        print_colored(f"Requesting channels from: {url_channels}", "cyan")
         res_channels = session.get(url_channels, headers=headers, timeout=10)
         res_channels.raise_for_status()
         channels_data = res_channels.json()["js"]["data"]
 
+        print_colored(f"Channels received: {len(channels_data)}", "green")
         return channels_data, group_info
     except Exception as e:
         print_colored(f"Channel list error: {e}", "red")
@@ -85,7 +92,7 @@ def save_channel_list(base_url, channels_data, group_info, mac):
                 f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group_name}",{name}\n')
                 f.write(cmd_url + "\n")
                 count += 1
-        print_colored(f"Total channels: {count}", "green")
+        print_colored(f"Total channels written: {count}", "green")
         print_colored(f"Playlist saved at: {filename}", "blue")
     except Exception as e:
         print_colored(f"Saving file error: {e}", "red")
@@ -107,7 +114,6 @@ def main():
     if not token:
         print_colored("Failed to get token. Exiting.", "red")
         sys.exit(1)
-    print_colored("Token acquired.", "green")
 
     if not get_subscription(session, base_url, token):
         print_colored("Failed to get subscription info. Exiting.", "red")
