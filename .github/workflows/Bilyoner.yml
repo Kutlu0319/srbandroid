@@ -28,9 +28,11 @@ jobs:
         run: |
           python Bilyoner.py
 
-      - name: Upload generated M3U file
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: bilyoner-kanallar
-          path: /sdcard/bilyoner_kanallar.m3u
+     - name: Upload generated M3U file
+
+  if: success()
+  uses: actions/upload-artifact@v4
+  with:
+    name: bilyoner-kanallar
+    path: bilyoner_kanallar.m3u
+
