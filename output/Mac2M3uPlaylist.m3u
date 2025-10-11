@@ -1,0 +1,91 @@
+#EXTINF:-1 tvg-logo="http://62.210.222.188/MOVIE/darklogo/DarkTVLogo/TVLOGOLAR/Turkiye/trt1_hd.png" group-title="TR - ULUSAL ᵘˡᵗʳᵃ",(TR)⚡️Trt 1 ᵘˡᵗʳᵃ
+http://saray68.darktv.nl/c//play/live.php?mac=00:1A:79:04:0F:AD&stream=182943&extension=ts
+
+
+#EXTINF:-1 group-title="90padisahbettv",1
+#EXTVLCOPT:http-referrerhttps://90padisahbettv.com/kanal?id=1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=1&isChannel=1
+
+
+#EXTINF:-1 group-title="90padisahbettv",2
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/kanal?id=2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=2&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",3
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/kanal?id=3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=3&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",4
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381518
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=4&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",5
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381553
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=5&isChannel=1
+
+
+#EXTINF:-1 group-title="90padisahbettv",6
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381553
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=6&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",7
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381517
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=7&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",8
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381518
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=8&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",9
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381553
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=9&isChannel=1
+
+
+#EXTINF:-1 group-title="90padisahbettv",10
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381553
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=10&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",11
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381517
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=11&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",12
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381518
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=12&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",13
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381553
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=13&isChannel=1
+
+
+#EXTINF:-1 group-title="90padisahbettv",14
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381553
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=14&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",15
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381517
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=15&isChannel=1
+
+#EXTINF:-1 group-title="90padisahbettv",16
+#EXTVLCOPT:http-referrer=https://90padisahbettv.com/?id=381518
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+https://90padisahbettv.com/kanal?id=16&isChannel=1
+
+
+
+
