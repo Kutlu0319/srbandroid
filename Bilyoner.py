@@ -5,11 +5,12 @@ def aktif_domain_bul():
         domain = f"https://bilyonersport{i}.com/"
         try:
             r = requests.get(domain, timeout=3)
+            print(f"Trying {domain} - Status: {r.status_code}")
             if r.status_code == 200 and "channel-list" in r.text:
                 print(f"Active domain found: {domain}")
                 return domain
-        except:
-            pass
+        except Exception as e:
+            print(f"Failed to reach {domain} - Error: {e}")
     print("No active domain found.")
     return None
 
@@ -29,7 +30,8 @@ def kanallari_cek(domain):
     return kanallar
 
 def m3u_olustur(kanallar, referer):
-    path = os.path.join("/sdcard", "bilyoner_kanallar.m3u")
+    os.makedirs("output", exist_ok=True)
+    path = os.path.join("output", "bilyoner_kanallar.m3u")
     with open(path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for name, url in kanallar:
