@@ -3,8 +3,9 @@ import json
 import re
 import sys
 from datetime import datetime
-from typing import Dict, Tuple, Optional, Any, List
+from typing import Dict, Tuple, Optional, List
 from urllib.parse import urlparse
+import os
 
 def print_colored(text: str, color: str) -> None:
     colors: Dict[str, str] = {
@@ -94,9 +95,8 @@ def save_channel_list(base_url: str, channels_data: List[Dict], group_info: Dict
 
 def main() -> None:
     try:
-        # Bunları değiştirebilirsin:
-        base_url = "http://saray68.darktv.nl/c"
-        mac = "00:1A:79:04:0F:AD"
+        base_url = os.getenv("BASE_URL", "http://saray68.darktv.nl/c")
+        mac = os.getenv("MAC_ADDRESS", "00:1A:79:04:0F:AD")
 
         session = requests.Session()
         session.cookies.update({"mac": mac})
