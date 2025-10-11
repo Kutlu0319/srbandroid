@@ -11,24 +11,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Setup Python 3.11
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install requests library
         run: pip install requests
 
       - name: Run IPTV script
         run: python Mac2M3uPlaylist.py
 
-      - name: Show output files
+      - name: List output directory
         run: ls -la output/
 
-      - name: Upload M3U artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: iptv-playlist
