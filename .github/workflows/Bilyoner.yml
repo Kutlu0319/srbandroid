@@ -3,8 +3,8 @@ name: Run Bilyoner Script
 on:
   push:
     branches:
-      - main  # veya 'master' – senin repo ana dalın hangisiyse
-  workflow_dispatch:  # elle tetikleme imkanı verir
+      - main  # veya 'master' ise ona göre değiştir
+  workflow_dispatch:  # elle başlatma imkanı verir
 
 jobs:
   run-script:
@@ -24,15 +24,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run script
+      - name: Run the script
         run: |
           python Bilyoner.py
 
-     - name: Upload generated M3U file
-
-  if: success()
-  uses: actions/upload-artifact@v4
-  with:
-    name: bilyoner-kanallar
-    path: bilyoner_kanallar.m3u
-
+      - name: Upload generated M3U file
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bilyoner-kanallar
+          path: output/bilyoner_kanallar.m3u
