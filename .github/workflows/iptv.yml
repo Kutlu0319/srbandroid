@@ -25,10 +25,11 @@ jobs:
           pip install requests
 
       - name: Run IPTV script
-        run: python iptv_script.py
+        run: python Mac2M3uPlaylist.py
 
       - name: Upload M3U artifact
         uses: actions/upload-artifact@v4
         with:
           name: m3u-playlist
           path: Mac2M3uPlaylist.m3u
+
