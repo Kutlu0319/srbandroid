@@ -2,10 +2,10 @@ import requests
 import json
 import re
 import sys
-from datetime import datetime
-from typing import Dict, Tuple, Optional, List
-from urllib.parse import urlparse
 import os
+from datetime import datetime
+from typing import Dict, Tuple, Optional, Any, List
+from urllib.parse import urlparse
 
 def print_colored(text: str, color: str) -> None:
     colors: Dict[str, str] = {
@@ -66,7 +66,9 @@ def get_channel_list(session: requests.Session, base_url: str, token: str, timeo
         return None, None
 
 def save_channel_list(base_url: str, channels_data: List[Dict], group_info: Dict, mac: str) -> None:
-    filename = "Mac2M3uPlaylist.m3u"
+    output_dir = "output"
+    os.makedirs(output_dir, exist_ok=True)
+    filename = os.path.join(output_dir, "Mac2M3uPlaylist.m3u")
     count = 0
     try:
         with open(filename, "w", encoding="utf-8") as file:
@@ -90,13 +92,17 @@ def save_channel_list(base_url: str, channels_data: List[Dict], group_info: Dict
                 count += 1
         print_colored(f"\nTotal channels found: {count}", "green")
         print_colored(f"Channel list saved to: {filename}", "blue")
+        if os.path.isfile(filename):
+            print_colored(f"File {filename} created successfully.", "green")
+        else:
+            print_colored(f"File {filename} was NOT created!", "red")
     except IOError as e:
         print_colored(f"Error saving channel list file: {e}", "red")
 
 def main() -> None:
     try:
-        base_url = os.getenv("BASE_URL", "http://saray68.darktv.nl/c")
-        mac = os.getenv("MAC_ADDRESS", "00:1A:79:04:0F:AD")
+        base_url = "http://saray68.darktv.nl/c"
+        mac = "00:1A:79:04:0F:AD"
 
         session = requests.Session()
         session.cookies.update({"mac": mac})
