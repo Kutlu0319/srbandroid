@@ -1,4 +1,4 @@
-name: Build IPTV M3U
+name: Build IPTV M3U Playlist
 
 on:
   push:
@@ -11,24 +11,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Python 3.11
+      - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: 3.11
 
-      - name: Install requests library
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run IPTV script
-        run: python Mac2M3uPlaylist.py
+      - name: Run IPTV script with debug output
+        run: |
+          python Mac2M3uPlaylist.py > full_output.log 2>&1
+          cat full_output.log
 
-      - name: List output directory
-        run: ls -la output/
+      - name: List output directory contents
+        run: ls -l output/
 
-      - name: Upload artifact
+      - name: Upload M3U playlist artifact
         uses: actions/upload-artifact@v4
         with:
           name: iptv-playlist
