@@ -14,36 +14,43 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Python kurulum (eğer Python script kullanıyorsan)
+      # 2. Python kurulum
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Gereken Python sürümünü yaz
+          python-version: '3.x'  # İhtiyacına göre değiştir
 
-      # 3. Git kullanıcı ayarları
+      # 3. Gerekli Python paketlerini yükle (Playwright dahil)
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install playwright
+          playwright install
+
+      # 4. Git kullanıcı ayarları
       - name: Set up Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-      # 4. Python script çalıştır (m3u8 dosyalarını güncelle)
+      # 5. Python script çalıştır (m3u8 dosyalarını güncelle)
       - name: Run taraftarium24.py
         run: |
           python3 taraftarium24.py
 
-      # 5. Commit oluştur (değişiklik yoksa hata vermesin)
+      # 6. Commit oluştur (değişiklik yoksa hata vermesin)
       - name: Commit changes
         run: |
           git add .
           git commit -m "Auto-update m3u8 files" || echo "No changes to commit"
 
-      # 6. Remote değişiklikleri çek ve rebase yap
+      # 7. Remote değişiklikleri çek ve rebase yap
       - name: Pull remote changes safely
         run: |
           git fetch origin main
           git rebase origin/main || git rebase --abort
 
-      # 7. Değişiklikleri push et
+      # 8. Değişiklikleri push et
       - name: Push changes
         run: |
           git push origin main
