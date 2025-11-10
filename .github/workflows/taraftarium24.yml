@@ -3,14 +3,14 @@ name: Auto Update M3U8
 on:
   schedule:
     - cron: '0 * * * *'  # Her saat başı çalışır
-  workflow_dispatch:     # Manuel çalıştırmak için
+  workflow_dispatch:     # Manuel tetikleme
 
 jobs:
   update-files:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Repo’yu checkout et
+      # 1. Repo checkout
       - name: Checkout repository
         uses: actions/checkout@v3
 
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # İhtiyacına göre değiştir
+          python-version: '3.x'
 
       # 3. Playwright ve bağımlılıkları yükle
       - name: Install Playwright
@@ -27,18 +27,18 @@ jobs:
           python -m pip install playwright
           python -m playwright install
 
-      # 4. Git kullanıcı ayarları
+      # 4. Git ayarları
       - name: Set up Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-      # 5. Python script çalıştır (m3u8 dosyalarını güncelle)
+      # 5. Python script çalıştır
       - name: Run taraftarium24.py
         run: |
           python taraftarium24.py
 
-      # 6. Commit oluştur (değişiklik yoksa hata vermesin)
+      # 6. Commit değişiklikleri
       - name: Commit changes
         run: |
           git add .
@@ -50,7 +50,7 @@ jobs:
           git fetch origin main
           git rebase origin/main || git rebase --abort
 
-      # 8. Değişiklikleri push et
+      # 8. Push değişiklikler
       - name: Push changes
         run: |
           git push origin main
