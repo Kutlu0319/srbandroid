@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
 
 def main():
-    print("🚀 Playwright ile Taraftarium24 M3U8 Kanal İndirici Başlatılıyor (Tüm Liste)...")
+    print("🚀 Taraftarium24 M3U8 Kanal İndirici Başlatılıyor...")
 
     try:
         with sync_playwright() as p:
@@ -9,42 +9,37 @@ def main():
             context = browser.new_context()
             page = context.new_page()
 
-            # Ana sayfaya git, timeout 180s, load olmasını bekle
-            print("📡 Ana sayfaya gidiliyor...")
+            # Ana sayfaya git
             page.goto("https://taraftarium24.xyz/", timeout=180000, wait_until="load")
-
-            # iframe'in yüklenmesini bekle
             page.wait_for_selector("iframe#customIframe", timeout=180000)
-            print("✅ Varsayılan iframe bulundu.")
+            print("✅ iframe bulundu.")
 
             iframe = page.query_selector("iframe#customIframe")
-            channel_id = iframe.get_attribute("id") if iframe else "unknown"
-            event_url = f"https://taraftarium24.xyz/event.html?id={channel_id}"
-            print(f"✅ Varsayılan kanal bilgisi alındı: ID='{channel_id}', EventURL='{event_url}'")
+            frame = iframe.content_frame()
+            if not frame:
+                print("❌ iframe içeriği alınamadı.")
+                return
 
-            # Event sayfasına git ve M3U8 Base URL al
-            page.goto(event_url, timeout=180000, wait_until="load")
-            base_url = "https://andro.okan11gote12sokan.cfd/checklist/"
-            print(f"✅ M3U8 Base URL bulundu: {base_url}")
-
-            # Kanal listesi çekme
-            print("📡 Tüm kanallar çekiliyor...")
-            page.goto("https://taraftarium24.xyz/", timeout=180000, wait_until="load")
-            try:
-                page.wait_for_selector("iframe#customIframe", timeout=180000)
-                print("✅ Kanal listesi yüklendi, işlem devam edebilir.")
-            except PlaywrightTimeoutError:
-                print("❌ Kanal listesi yüklenemedi, işlem sonlandırılıyor.")
+            # Kanal elemanlarını seç (örnek selector, sitenin yapısına göre değişebilir)
+            channels = frame.query_selector_all("div.channel-item")
+            if not channels:
+                print("❌ Hiç kanal bulunamadı.")
                 return
 
             # m3u8 dosyasını oluştur
             with open("taraftarium24_kanallar.m3u8", "w") as f:
-                f.write("# Örnek m3u8 dosyası\n")
-                f.write(f"# Base URL: {base_url}\n")
+                f.write("#EXTM3U\n")
+                for ch in channels:
+                    name = ch.inner_text().strip()
+                    url = ch.get_attribute("data-m3u8")  # örnek attribute
+                    if name and url:
+                        f.write(f"#EXTINF:-1,{name}\n{url}\n")
 
-            print("✅ M3U8 dosyası oluşturuldu.")
+            print(f"✅ {len(channels)} kanal ile m3u8 dosyası oluşturuldu.")
             browser.close()
 
+    except PlaywrightTimeoutError:
+        print("❌ Timeout hatası, işlem sonlandırıldı.")
     except PlaywrightError as e:
         print(f"❌ Playwright hatası: {e}")
         exit(1)
