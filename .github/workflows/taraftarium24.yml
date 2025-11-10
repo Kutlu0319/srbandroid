@@ -1,46 +1,49 @@
-name: cixis fayli Links
+name: Auto Update M3U8
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *'  # Her saat başı çalışır
+  workflow_dispatch:     # Manuel çalıştırmak için
 
 jobs:
-  extract:
+  update-files:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
+      # 1. Repo’yu checkout et
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
+      # 2. Python kurulum (eğer Python script kullanıyorsan)
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.x'  # Gereken Python sürümünü yaz
 
-      # DEĞİŞİKLİK 1: Gerekli kütüphaneler kuruluyor (artık playwright kullanıyoruz)
-      - name: Install Python dependencies
-        run: |
-          pip install playwright
-
-      # DEĞİŞİKLİK 2: Playwright'ın kontrol edeceği Chromium tarayıcısı kuruluyor
-      - name: Install Playwright browsers
-        run: |
-          playwright install chromium
-
-      - name: Run taraftarium24.py
-        run: python taraftarium24.py
-
-      - name: Commit and Push changes
+      # 3. Git kullanıcı ayarları
+      - name: Set up Git
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+
+      # 4. Python script çalıştır (m3u8 dosyalarını güncelle)
+      - name: Run taraftarium24.py
+        run: |
+          python3 taraftarium24.py
+
+      # 5. Commit oluştur (değişiklik yoksa hata vermesin)
+      - name: Commit changes
+        run: |
           git add .
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update m3u8 files"
-            git push
-          fi
+          git commit -m "Auto-update m3u8 files" || echo "No changes to commit"
+
+      # 6. Remote değişiklikleri çek ve rebase yap
+      - name: Pull remote changes safely
+        run: |
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+
+      # 7. Değişiklikleri push et
+      - name: Push changes
+        run: |
+          git push origin main
