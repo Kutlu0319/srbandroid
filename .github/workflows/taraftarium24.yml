@@ -20,12 +20,12 @@ jobs:
         with:
           python-version: '3.x'  # İhtiyacına göre değiştir
 
-      # 3. Gerekli Python paketlerini yükle (Playwright dahil)
-      - name: Install dependencies
+      # 3. Playwright ve bağımlılıkları yükle
+      - name: Install Playwright
         run: |
-          pip install --upgrade pip
-          pip install playwright
-          playwright install
+          python -m pip install --upgrade pip
+          python -m pip install playwright
+          python -m playwright install
 
       # 4. Git kullanıcı ayarları
       - name: Set up Git
@@ -36,7 +36,7 @@ jobs:
       # 5. Python script çalıştır (m3u8 dosyalarını güncelle)
       - name: Run taraftarium24.py
         run: |
-          python3 taraftarium24.py
+          python taraftarium24.py
 
       # 6. Commit oluştur (değişiklik yoksa hata vermesin)
       - name: Commit changes
