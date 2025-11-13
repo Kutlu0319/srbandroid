@@ -1,10 +1,6 @@
 #EXTM3U
 #EXT-X-USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXT-X-ORIGIN:https://taraftarium24.xyz
-#EXTINF:-1 tvg-name="Türkiye - İran" group-title="Maç Yayınları",Türkiye - İran
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivetrts.m3u8
-#EXTINF:-1 tvg-name="Alvarez/Losada - Chingotto/Galan" group-title="Maç Yayınları",Alvarez/Losada - Chingotto/Galan
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivebsm1.m3u8
 #EXTINF:-1 tvg-name="Ermenistan - Macaristan" group-title="Maç Yayınları",Ermenistan - Macaristan
 https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
 #EXTINF:-1 tvg-name="Azerbaycan - İzlanda" group-title="Maç Yayınları",Azerbaycan - İzlanda
@@ -51,26 +47,16 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn.m3u8
 #EXTINF:-1 tvg-name="Cebelitarik - Karadağ" group-title="Maç Yayınları",Cebelitarik - Karadağ
 https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn.m3u8
-#EXTINF:-1 tvg-name="Nigeria - Gabon" group-title="Maç Yayınları",Nigeria - Gabon
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream255.m3u8
-#EXTINF:-1 tvg-name="Algeria - Zimbabwe" group-title="Maç Yayınları",Algeria - Zimbabwe
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream227.m3u8
-#EXTINF:-1 tvg-name="Lithuania - Israel" group-title="Maç Yayınları",Lithuania - Israel
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream260.m3u8
-#EXTINF:-1 tvg-name="North Macedonia - Latvia" group-title="Ulusal Kanallar",North Macedonia - Latvia
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream261.m3u8
-#EXTINF:-1 tvg-name="Norway - Estonia" group-title="Maç Yayınları",Norway - Estonia
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream337.m3u8
-#EXTINF:-1 tvg-name="Azerbaijan - Iceland" group-title="Maç Yayınları",Azerbaijan - Iceland
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream113.m3u8
-#EXTINF:-1 tvg-name="Armenia - Hungary" group-title="Maç Yayınları",Armenia - Hungary
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream92.m3u8
-#EXTINF:-1 tvg-name="Slovakia U21 - Kazakhstan U21" group-title="Maç Yayınları",Slovakia U21 - Kazakhstan U21
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream253.m3u8
-#EXTINF:-1 tvg-name="Czech Republic - San Marino" group-title="Maç Yayınları",Czech Republic - San Marino
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream259.m3u8
 #EXTINF:-1 tvg-name="Santos SP (w) - Palmeiras SP (w)" group-title="Maç Yayınları",Santos SP (w) - Palmeiras SP (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream228.m3u8
+#EXTINF:-1 tvg-name="Aparecida U20 - Planalto U20" group-title="Maç Yayınları",Aparecida U20 - Planalto U20
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream257.m3u8
+#EXTINF:-1 tvg-name="Twente - Schalke 04" group-title="Maç Yayınları",Twente - Schalke 04
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream227.m3u8
+#EXTINF:-1 tvg-name="Luxembourg U21 - Iceland U21" group-title="Maç Yayınları",Luxembourg U21 - Iceland U21
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream229.m3u8
+#EXTINF:-1 tvg-name="Cameroon - DR Congo" group-title="Maç Yayınları",Cameroon - DR Congo
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream230.m3u8
 #EXTINF:-1 tvg-name="Suriname - El Salvador" group-title="Maç Yayınları",Suriname - El Salvador
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290485810.m3u8
 #EXTINF:-1 tvg-name="Trinidad and Tobago - Jamaica" group-title="Maç Yayınları",Trinidad and Tobago - Jamaica
@@ -93,34 +79,6 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290688716.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290688717.m3u8
 #EXTINF:-1 tvg-name="Kenya - Equatorial Guinea" group-title="Maç Yayınları",Kenya - Equatorial Guinea
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290688722.m3u8
-#EXTINF:-1 tvg-name="Osceola Magic - Mexico City Capitanes" group-title="Maç Yayınları",Osceola Magic - Mexico City Capitanes
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream345.m3u8
-#EXTINF:-1 tvg-name="APR BBC (w) - Kenya Ports Authority (w)" group-title="Maç Yayınları",APR BBC (w) - Kenya Ports Authority (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream339.m3u8
-#EXTINF:-1 tvg-name="Czarni Slupsk - Stal Ostrow Wielkopolski" group-title="Maç Yayınları",Czarni Slupsk - Stal Ostrow Wielkopolski
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream5.m3u8
-#EXTINF:-1 tvg-name="Plunges Olimpas - Silute" group-title="Maç Yayınları",Plunges Olimpas - Silute
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream344.m3u8
-#EXTINF:-1 tvg-name="Ukmerge Stekas - Palangos Olimpas" group-title="Maç Yayınları",Ukmerge Stekas - Palangos Olimpas
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream45.m3u8
-#EXTINF:-1 tvg-name="Brno - Opava" group-title="Maç Yayınları",Brno - Opava
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream19.m3u8
-#EXTINF:-1 tvg-name="CS Municipal Targu Mures - Targu Jiu" group-title="Maç Yayınları",CS Municipal Targu Mures - Targu Jiu
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream15.m3u8
-#EXTINF:-1 tvg-name="BC CSU Sibiu - CSM Galati" group-title="Maç Yayınları",BC CSU Sibiu - CSM Galati
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream40.m3u8
-#EXTINF:-1 tvg-name="Zlatibor - Borac Banja Luka" group-title="Maç Yayınları",Zlatibor - Borac Banja Luka
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream20.m3u8
-#EXTINF:-1 tvg-name="Vilniaus Rytas 2 - Zalgiris 2" group-title="Maç Yayınları",Vilniaus Rytas 2 - Zalgiris 2
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream346.m3u8
-#EXTINF:-1 tvg-name="Texas A&M Aggies (w) - Tarleton State (w)" group-title="Maç Yayınları",Texas A&M Aggies (w) - Tarleton State (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream47.m3u8
-#EXTINF:-1 tvg-name="Auburn Tigers (w) - Mississippi Valley State (w)" group-title="Maç Yayınları",Auburn Tigers (w) - Mississippi Valley State (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream46.m3u8
-#EXTINF:-1 tvg-name="Wisc Green Bay (w) - New Hampshire Wildcats (w)" group-title="Maç Yayınları",Wisc Green Bay (w) - New Hampshire Wildcats (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream41.m3u8
-#EXTINF:-1 tvg-name="Al Muharraq - Al Nweidrat" group-title="Maç Yayınları",Al Muharraq - Al Nweidrat
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream12.m3u8
 #EXTINF:-1 tvg-name="Pyrinto Akatemia - NMKY Helsingin" group-title="Maç Yayınları",Pyrinto Akatemia - NMKY Helsingin
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream35.m3u8
 #EXTINF:-1 tvg-name="Sweden (w) - Lithuania (w)" group-title="Maç Yayınları",Sweden (w) - Lithuania (w)
@@ -129,66 +87,52 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream36.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream14.m3u8
 #EXTINF:-1 tvg-name="Cinkarna Celje (w) - Skofja Loka (w)" group-title="Maç Yayınları",Cinkarna Celje (w) - Skofja Loka (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream214.m3u8
-#EXTINF:-1 tvg-name="Interstellar - Gravity Breakers" group-title="Maç Yayınları",Interstellar - Gravity Breakers
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream43.m3u8
-#EXTINF:-1 tvg-name="UFO - Baikonur" group-title="Maç Yayınları",UFO - Baikonur
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream44.m3u8
-#EXTINF:-1 tvg-name="Ryazan - Smolensk" group-title="Maç Yayınları",Ryazan - Smolensk
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream31.m3u8
 #EXTINF:-1 tvg-name="Miami Ohio Redhawks (w) - Indiana Hoosiers (w)" group-title="Maç Yayınları",Miami Ohio Redhawks (w) - Indiana Hoosiers (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream338.m3u8
-#EXTINF:-1 tvg-name="Chita - Khabarovsk" group-title="Maç Yayınları",Chita - Khabarovsk
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream39.m3u8
+#EXTINF:-1 tvg-name="Topolcanka (w) - Srobobran (w)" group-title="Maç Yayınları",Topolcanka (w) - Srobobran (w)
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream339.m3u8
+#EXTINF:-1 tvg-name="Fenerbahce - Hapoel Tel-Aviv" group-title="Maç Yayınları",Fenerbahce - Hapoel Tel-Aviv
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream15.m3u8
+#EXTINF:-1 tvg-name="Crvena Zvezda - AS Monaco Basket" group-title="Maç Yayınları",Crvena Zvezda - AS Monaco Basket
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream16.m3u8
+#EXTINF:-1 tvg-name="Caen Basket Calvados - Aix Maurienne" group-title="Maç Yayınları",Caen Basket Calvados - Aix Maurienne
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream11.m3u8
+#EXTINF:-1 tvg-name="Bamberg - Heidelberg" group-title="Maç Yayınları",Bamberg - Heidelberg
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream34.m3u8
+#EXTINF:-1 tvg-name="Wurzburg Baskets Akademie - Frankfurt 2" group-title="Maç Yayınları",Wurzburg Baskets Akademie - Frankfurt 2
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream21.m3u8
+#EXTINF:-1 tvg-name="Baikonur - Jets" group-title="Maç Yayınları",Baikonur - Jets
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream9.m3u8
+#EXTINF:-1 tvg-name="Serov - Salavat" group-title="Maç Yayınları",Serov - Salavat
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream22.m3u8
+#EXTINF:-1 tvg-name="Hyperdunkers - Gravity Breakers" group-title="Maç Yayınları",Hyperdunkers - Gravity Breakers
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream37.m3u8
 #EXTINF:-1 tvg-name="Cavaliers - Raptors" group-title="Maç Yayınları",Cavaliers - Raptors
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290487396.m3u8
 #EXTINF:-1 tvg-name="Suns - Pacers" group-title="Maç Yayınları",Suns - Pacers
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290583605.m3u8
 #EXTINF:-1 tvg-name="Jazz - Hawks" group-title="Maç Yayınları",Jazz - Hawks
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290583606.m3u8
-#EXTINF:-1 tvg-name="Sokol Mogilno (w) - Radomka Radom (w)" group-title="Maç Yayınları",Sokol Mogilno (w) - Radomka Radom (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream198.m3u8
 #EXTINF:-1 tvg-name="Vasas Obuda (w) - Olympiacos (w)" group-title="Maç Yayınları",Vasas Obuda (w) - Olympiacos (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream114.m3u8
-#EXTINF:-1 tvg-name="SMS Jastrzebie U19 (w) - Bielsko-Biala U19 (w)" group-title="Maç Yayınları",SMS Jastrzebie U19 (w) - Bielsko-Biala U19 (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream130.m3u8
-#EXTINF:-1 tvg-name="Pantery-pro (w) - Sovy-pro (w)" group-title="Maç Yayınları",Pantery-pro (w) - Sovy-pro (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream149.m3u8
+#EXTINF:-1 tvg-name="Farum (w) - Holte (w)" group-title="Maç Yayınları",Farum (w) - Holte (w)
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream150.m3u8
+#EXTINF:-1 tvg-name="ACH Ljubljana - Dynamo Bucuresti" group-title="Maç Yayınları",ACH Ljubljana - Dynamo Bucuresti
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream225.m3u8
+#EXTINF:-1 tvg-name="Brondby (w) - Gentofte (w)" group-title="Maç Yayınları",Brondby (w) - Gentofte (w)
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream145.m3u8
 #EXTINF:-1 tvg-name="Wooricard - Kepco" group-title="Maç Yayınları",Wooricard - Kepco
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290689202.m3u8
 #EXTINF:-1 tvg-name="IBK (w) - GS Caltex (w)" group-title="Maç Yayınları",IBK (w) - GS Caltex (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290689203.m3u8
 #EXTINF:-1 tvg-name="Uralochka-NTMK Ekb (w) - Dynamo-Ak Bars Kazan (w)" group-title="Maç Yayınları",Uralochka-NTMK Ekb (w) - Dynamo-Ak Bars Kazan (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290689197.m3u8
-#EXTINF:-1 tvg-name="Cabezas Dominguez S E - Cayetano E" group-title="Maç Yayınları",Cabezas Dominguez S E - Cayetano E
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream199.m3u8
 #EXTINF:-1 tvg-name="Goity Zapico S - Roberts J" group-title="Maç Yayınları",Goity Zapico S - Roberts J
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream180.m3u8
-#EXTINF:-1 tvg-name="Added D - Jacquet K" group-title="Maç Yayınları",Added D - Jacquet K
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream216.m3u8
-#EXTINF:-1 tvg-name="Khayrutdinova E - McNeil C" group-title="Maç Yayınları",Khayrutdinova E - McNeil C
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream202.m3u8
-#EXTINF:-1 tvg-name="Stoiana M - Liutova K" group-title="Maç Yayınları",Stoiana M - Liutova K
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream210.m3u8
 #EXTINF:-1 tvg-name="Penickova K - Matoula M" group-title="Maç Yayınları",Penickova K - Matoula M
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream208.m3u8
-#EXTINF:-1 tvg-name="Trevey C - Schneider V" group-title="Maç Yayınları",Trevey C - Schneider V
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream239.m3u8
-#EXTINF:-1 tvg-name="Ventre A - Fix D" group-title="Maç Yayınları",Ventre A - Fix D
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream217.m3u8
-#EXTINF:-1 tvg-name="Hoffmann N - Photiades P" group-title="Maç Yayınları",Hoffmann N - Photiades P
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream185.m3u8
-#EXTINF:-1 tvg-name="Lebron J / Stupaczuk F - Libaak V / Bautista J" group-title="Maç Yayınları",Lebron J / Stupaczuk F - Libaak V / Bautista J
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream170.m3u8
 #EXTINF:-1 tvg-name="Guillen Meza A - Vallejo A D" group-title="Maç Yayınları",Guillen Meza A - Vallejo A D
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream172.m3u8
-#EXTINF:-1 tvg-name="Cash J / Glasspool L - Granollers M / Zeballos H" group-title="Maç Yayınları",Cash J / Glasspool L - Granollers M / Zeballos H
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream186.m3u8
-#EXTINF:-1 tvg-name="Escobar G / Reyes-Varela M A - Andreozzi G / Kittay B" group-title="Maç Yayınları",Escobar G / Reyes-Varela M A - Andreozzi G / Kittay B
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream188.m3u8
-#EXTINF:-1 tvg-name="Kasnikowski M - Mmoh M" group-title="Maç Yayınları",Kasnikowski M - Mmoh M
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream244.m3u8
-#EXTINF:-1 tvg-name="Hu Victoria - Penickova A" group-title="Maç Yayınları",Hu Victoria - Penickova A
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream243.m3u8
 #EXTINF:-1 tvg-name="Lechno-Wasiutynski F - Cox N" group-title="Maç Yayınları",Lechno-Wasiutynski F - Cox N
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream212.m3u8
 #EXTINF:-1 tvg-name="Crespo Azconzabal A - Pavkova K" group-title="Maç Yayınları",Crespo Azconzabal A - Pavkova K
@@ -203,6 +147,26 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream242.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream183.m3u8
 #EXTINF:-1 tvg-name="Lilov V - Jankanj V" group-title="Maç Yayınları",Lilov V - Jankanj V
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream241.m3u8
+#EXTINF:-1 tvg-name="Gasanova A - Sieg M" group-title="Maç Yayınları",Gasanova A - Sieg M
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream245.m3u8
+#EXTINF:-1 tvg-name="Blanch Darwin - Azkara A" group-title="Maç Yayınları",Blanch Darwin - Azkara A
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream238.m3u8
+#EXTINF:-1 tvg-name="Brunkow G - Pisaric A" group-title="Maç Yayınları",Brunkow G - Pisaric A
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream206.m3u8
+#EXTINF:-1 tvg-name="Hontama M - Gomez O'Hayon V" group-title="Maç Yayınları",Hontama M - Gomez O'Hayon V
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream203.m3u8
+#EXTINF:-1 tvg-name="Tutoveanu E - Efimenko V" group-title="Maç Yayınları",Tutoveanu E - Efimenko V
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream199.m3u8
+#EXTINF:-1 tvg-name="Rodriguez C / Zeballos F - Drzewiecki K / Matuszewski P" group-title="Maç Yayınları",Rodriguez C / Zeballos F - Drzewiecki K / Matuszewski P
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream207.m3u8
+#EXTINF:-1 tvg-name="Day K - Feistel G" group-title="Maç Yayınları",Day K - Feistel G
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream240.m3u8
+#EXTINF:-1 tvg-name="Marginean A I / Sava I T - Goncharova A / Tattini M" group-title="Maç Yayınları",Marginean A I / Sava I T - Goncharova A / Tattini M
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream201.m3u8
+#EXTINF:-1 tvg-name="Fishback R / Zamora N - Genov A / Wallart E" group-title="Maç Yayınları",Fishback R / Zamora N - Genov A / Wallart E
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream200.m3u8
+#EXTINF:-1 tvg-name="Milavsky D - Broom C" group-title="Maç Yayınları",Milavsky D - Broom C
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream204.m3u8
 #EXTINF:-1 tvg-name="Barrena A - Garin C" group-title="Maç Yayınları",Barrena A - Garin C
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290054098.m3u8
 #EXTINF:-1 tvg-name="Miyoshi K - Braswell M" group-title="Maç Yayınları",Miyoshi K - Braswell M
@@ -217,18 +181,18 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290582932.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290398325.m3u8
 #EXTINF:-1 tvg-name="Martin Andres - Al Azmeh T" group-title="Maç Yayınları",Martin Andres - Al Azmeh T
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290398339.m3u8
-#EXTINF:-1 tvg-name="Ruehl T / Zahraj P - Aguilar J C / Boulais J" group-title="Maç Yayınları",Ruehl T / Zahraj P - Aguilar J C / Boulais J
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586658.m3u8
 #EXTINF:-1 tvg-name="Martin D - Rice K" group-title="Maç Yayınları",Martin D - Rice K
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289930397.m3u8
+#EXTINF:-1 tvg-name="Ruehl T / Zahraj P - Aguilar J C / Boulais J" group-title="Maç Yayınları",Ruehl T / Zahraj P - Aguilar J C / Boulais J
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586658.m3u8
 #EXTINF:-1 tvg-name="Delaney Jake - Matsuoka H" group-title="Maç Yayınları",Delaney Jake - Matsuoka H
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290486184.m3u8
 #EXTINF:-1 tvg-name="Duncan S / MacKinlay J - Miyoshi K / Okonkwo O" group-title="Maç Yayınları",Duncan S / MacKinlay J - Miyoshi K / Okonkwo O
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290582933.m3u8
-#EXTINF:-1 tvg-name="Catry R / McCormick T - Harper C / Thomson C" group-title="Maç Yayınları",Catry R / McCormick T - Harper C / Thomson C
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586662.m3u8
 #EXTINF:-1 tvg-name="Draxl L / Muamba N - Kingsley C / Maginley J" group-title="Maç Yayınları",Draxl L / Muamba N - Kingsley C / Maginley J
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586659.m3u8
+#EXTINF:-1 tvg-name="Catry R / McCormick T - Harper C / Thomson C" group-title="Maç Yayınları",Catry R / McCormick T - Harper C / Thomson C
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586662.m3u8
 #EXTINF:-1 tvg-name="Tomic B - Sweeny Dane" group-title="Maç Yayınları",Tomic B - Sweeny Dane
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290486183.m3u8
 #EXTINF:-1 tvg-name="Wu Tung-Lin - Overbeck C E" group-title="Maç Yayınları",Wu Tung-Lin - Overbeck C E
@@ -367,26 +331,16 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn6.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn7.m3u8
 #EXTINF:-1 tvg-name="Exxen Sports 8" group-title="Exxen",Exxen Sports 8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamliveexn8.m3u8
-#EXTINF:-1 tvg-name="Nigeria - Gabon" group-title="Maç Yayınları",Nigeria - Gabon
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream255.m3u8
-#EXTINF:-1 tvg-name="Algeria - Zimbabwe" group-title="Maç Yayınları",Algeria - Zimbabwe
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream227.m3u8
-#EXTINF:-1 tvg-name="Lithuania - Israel" group-title="Maç Yayınları",Lithuania - Israel
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream260.m3u8
-#EXTINF:-1 tvg-name="North Macedonia - Latvia" group-title="Ulusal Kanallar",North Macedonia - Latvia
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream261.m3u8
-#EXTINF:-1 tvg-name="Norway - Estonia" group-title="Maç Yayınları",Norway - Estonia
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream337.m3u8
-#EXTINF:-1 tvg-name="Azerbaijan - Iceland" group-title="Maç Yayınları",Azerbaijan - Iceland
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream113.m3u8
-#EXTINF:-1 tvg-name="Armenia - Hungary" group-title="Maç Yayınları",Armenia - Hungary
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream92.m3u8
-#EXTINF:-1 tvg-name="Slovakia U21 - Kazakhstan U21" group-title="Maç Yayınları",Slovakia U21 - Kazakhstan U21
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream253.m3u8
-#EXTINF:-1 tvg-name="Czech Republic - San Marino" group-title="Maç Yayınları",Czech Republic - San Marino
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream259.m3u8
 #EXTINF:-1 tvg-name="Santos SP (w) - Palmeiras SP (w)" group-title="Maç Yayınları",Santos SP (w) - Palmeiras SP (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream228.m3u8
+#EXTINF:-1 tvg-name="Aparecida U20 - Planalto U20" group-title="Maç Yayınları",Aparecida U20 - Planalto U20
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream257.m3u8
+#EXTINF:-1 tvg-name="Twente - Schalke 04" group-title="Maç Yayınları",Twente - Schalke 04
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream227.m3u8
+#EXTINF:-1 tvg-name="Luxembourg U21 - Iceland U21" group-title="Maç Yayınları",Luxembourg U21 - Iceland U21
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream229.m3u8
+#EXTINF:-1 tvg-name="Cameroon - DR Congo" group-title="Maç Yayınları",Cameroon - DR Congo
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream230.m3u8
 #EXTINF:-1 tvg-name="Suriname - El Salvador" group-title="Maç Yayınları",Suriname - El Salvador
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290485810.m3u8
 #EXTINF:-1 tvg-name="Trinidad and Tobago - Jamaica" group-title="Maç Yayınları",Trinidad and Tobago - Jamaica
@@ -409,34 +363,6 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290688716.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290688717.m3u8
 #EXTINF:-1 tvg-name="Kenya - Equatorial Guinea" group-title="Maç Yayınları",Kenya - Equatorial Guinea
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290688722.m3u8
-#EXTINF:-1 tvg-name="Osceola Magic - Mexico City Capitanes" group-title="Maç Yayınları",Osceola Magic - Mexico City Capitanes
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream345.m3u8
-#EXTINF:-1 tvg-name="APR BBC (w) - Kenya Ports Authority (w)" group-title="Maç Yayınları",APR BBC (w) - Kenya Ports Authority (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream339.m3u8
-#EXTINF:-1 tvg-name="Czarni Slupsk - Stal Ostrow Wielkopolski" group-title="Maç Yayınları",Czarni Slupsk - Stal Ostrow Wielkopolski
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream5.m3u8
-#EXTINF:-1 tvg-name="Plunges Olimpas - Silute" group-title="Maç Yayınları",Plunges Olimpas - Silute
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream344.m3u8
-#EXTINF:-1 tvg-name="Ukmerge Stekas - Palangos Olimpas" group-title="Maç Yayınları",Ukmerge Stekas - Palangos Olimpas
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream45.m3u8
-#EXTINF:-1 tvg-name="Brno - Opava" group-title="Maç Yayınları",Brno - Opava
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream19.m3u8
-#EXTINF:-1 tvg-name="CS Municipal Targu Mures - Targu Jiu" group-title="Maç Yayınları",CS Municipal Targu Mures - Targu Jiu
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream15.m3u8
-#EXTINF:-1 tvg-name="BC CSU Sibiu - CSM Galati" group-title="Maç Yayınları",BC CSU Sibiu - CSM Galati
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream40.m3u8
-#EXTINF:-1 tvg-name="Zlatibor - Borac Banja Luka" group-title="Maç Yayınları",Zlatibor - Borac Banja Luka
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream20.m3u8
-#EXTINF:-1 tvg-name="Vilniaus Rytas 2 - Zalgiris 2" group-title="Maç Yayınları",Vilniaus Rytas 2 - Zalgiris 2
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream346.m3u8
-#EXTINF:-1 tvg-name="Texas A&M Aggies (w) - Tarleton State (w)" group-title="Maç Yayınları",Texas A&M Aggies (w) - Tarleton State (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream47.m3u8
-#EXTINF:-1 tvg-name="Auburn Tigers (w) - Mississippi Valley State (w)" group-title="Maç Yayınları",Auburn Tigers (w) - Mississippi Valley State (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream46.m3u8
-#EXTINF:-1 tvg-name="Wisc Green Bay (w) - New Hampshire Wildcats (w)" group-title="Maç Yayınları",Wisc Green Bay (w) - New Hampshire Wildcats (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream41.m3u8
-#EXTINF:-1 tvg-name="Al Muharraq - Al Nweidrat" group-title="Maç Yayınları",Al Muharraq - Al Nweidrat
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream12.m3u8
 #EXTINF:-1 tvg-name="Pyrinto Akatemia - NMKY Helsingin" group-title="Maç Yayınları",Pyrinto Akatemia - NMKY Helsingin
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream35.m3u8
 #EXTINF:-1 tvg-name="Sweden (w) - Lithuania (w)" group-title="Maç Yayınları",Sweden (w) - Lithuania (w)
@@ -445,66 +371,52 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream36.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream14.m3u8
 #EXTINF:-1 tvg-name="Cinkarna Celje (w) - Skofja Loka (w)" group-title="Maç Yayınları",Cinkarna Celje (w) - Skofja Loka (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream214.m3u8
-#EXTINF:-1 tvg-name="Interstellar - Gravity Breakers" group-title="Maç Yayınları",Interstellar - Gravity Breakers
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream43.m3u8
-#EXTINF:-1 tvg-name="UFO - Baikonur" group-title="Maç Yayınları",UFO - Baikonur
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream44.m3u8
-#EXTINF:-1 tvg-name="Ryazan - Smolensk" group-title="Maç Yayınları",Ryazan - Smolensk
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream31.m3u8
 #EXTINF:-1 tvg-name="Miami Ohio Redhawks (w) - Indiana Hoosiers (w)" group-title="Maç Yayınları",Miami Ohio Redhawks (w) - Indiana Hoosiers (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream338.m3u8
-#EXTINF:-1 tvg-name="Chita - Khabarovsk" group-title="Maç Yayınları",Chita - Khabarovsk
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream39.m3u8
+#EXTINF:-1 tvg-name="Topolcanka (w) - Srobobran (w)" group-title="Maç Yayınları",Topolcanka (w) - Srobobran (w)
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream339.m3u8
+#EXTINF:-1 tvg-name="Fenerbahce - Hapoel Tel-Aviv" group-title="Maç Yayınları",Fenerbahce - Hapoel Tel-Aviv
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream15.m3u8
+#EXTINF:-1 tvg-name="Crvena Zvezda - AS Monaco Basket" group-title="Maç Yayınları",Crvena Zvezda - AS Monaco Basket
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream16.m3u8
+#EXTINF:-1 tvg-name="Caen Basket Calvados - Aix Maurienne" group-title="Maç Yayınları",Caen Basket Calvados - Aix Maurienne
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream11.m3u8
+#EXTINF:-1 tvg-name="Bamberg - Heidelberg" group-title="Maç Yayınları",Bamberg - Heidelberg
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream34.m3u8
+#EXTINF:-1 tvg-name="Wurzburg Baskets Akademie - Frankfurt 2" group-title="Maç Yayınları",Wurzburg Baskets Akademie - Frankfurt 2
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream21.m3u8
+#EXTINF:-1 tvg-name="Baikonur - Jets" group-title="Maç Yayınları",Baikonur - Jets
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream9.m3u8
+#EXTINF:-1 tvg-name="Serov - Salavat" group-title="Maç Yayınları",Serov - Salavat
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream22.m3u8
+#EXTINF:-1 tvg-name="Hyperdunkers - Gravity Breakers" group-title="Maç Yayınları",Hyperdunkers - Gravity Breakers
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream37.m3u8
 #EXTINF:-1 tvg-name="Cavaliers - Raptors" group-title="Maç Yayınları",Cavaliers - Raptors
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290487396.m3u8
 #EXTINF:-1 tvg-name="Suns - Pacers" group-title="Maç Yayınları",Suns - Pacers
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290583605.m3u8
 #EXTINF:-1 tvg-name="Jazz - Hawks" group-title="Maç Yayınları",Jazz - Hawks
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290583606.m3u8
-#EXTINF:-1 tvg-name="Sokol Mogilno (w) - Radomka Radom (w)" group-title="Maç Yayınları",Sokol Mogilno (w) - Radomka Radom (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream198.m3u8
 #EXTINF:-1 tvg-name="Vasas Obuda (w) - Olympiacos (w)" group-title="Maç Yayınları",Vasas Obuda (w) - Olympiacos (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream114.m3u8
-#EXTINF:-1 tvg-name="SMS Jastrzebie U19 (w) - Bielsko-Biala U19 (w)" group-title="Maç Yayınları",SMS Jastrzebie U19 (w) - Bielsko-Biala U19 (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream130.m3u8
-#EXTINF:-1 tvg-name="Pantery-pro (w) - Sovy-pro (w)" group-title="Maç Yayınları",Pantery-pro (w) - Sovy-pro (w)
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream149.m3u8
+#EXTINF:-1 tvg-name="Farum (w) - Holte (w)" group-title="Maç Yayınları",Farum (w) - Holte (w)
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream150.m3u8
+#EXTINF:-1 tvg-name="ACH Ljubljana - Dynamo Bucuresti" group-title="Maç Yayınları",ACH Ljubljana - Dynamo Bucuresti
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream225.m3u8
+#EXTINF:-1 tvg-name="Brondby (w) - Gentofte (w)" group-title="Maç Yayınları",Brondby (w) - Gentofte (w)
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream145.m3u8
 #EXTINF:-1 tvg-name="Wooricard - Kepco" group-title="Maç Yayınları",Wooricard - Kepco
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290689202.m3u8
 #EXTINF:-1 tvg-name="IBK (w) - GS Caltex (w)" group-title="Maç Yayınları",IBK (w) - GS Caltex (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290689203.m3u8
 #EXTINF:-1 tvg-name="Uralochka-NTMK Ekb (w) - Dynamo-Ak Bars Kazan (w)" group-title="Maç Yayınları",Uralochka-NTMK Ekb (w) - Dynamo-Ak Bars Kazan (w)
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290689197.m3u8
-#EXTINF:-1 tvg-name="Cabezas Dominguez S E - Cayetano E" group-title="Maç Yayınları",Cabezas Dominguez S E - Cayetano E
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream199.m3u8
 #EXTINF:-1 tvg-name="Goity Zapico S - Roberts J" group-title="Maç Yayınları",Goity Zapico S - Roberts J
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream180.m3u8
-#EXTINF:-1 tvg-name="Added D - Jacquet K" group-title="Maç Yayınları",Added D - Jacquet K
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream216.m3u8
-#EXTINF:-1 tvg-name="Khayrutdinova E - McNeil C" group-title="Maç Yayınları",Khayrutdinova E - McNeil C
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream202.m3u8
-#EXTINF:-1 tvg-name="Stoiana M - Liutova K" group-title="Maç Yayınları",Stoiana M - Liutova K
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream210.m3u8
 #EXTINF:-1 tvg-name="Penickova K - Matoula M" group-title="Maç Yayınları",Penickova K - Matoula M
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream208.m3u8
-#EXTINF:-1 tvg-name="Trevey C - Schneider V" group-title="Maç Yayınları",Trevey C - Schneider V
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream239.m3u8
-#EXTINF:-1 tvg-name="Ventre A - Fix D" group-title="Maç Yayınları",Ventre A - Fix D
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream217.m3u8
-#EXTINF:-1 tvg-name="Hoffmann N - Photiades P" group-title="Maç Yayınları",Hoffmann N - Photiades P
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream185.m3u8
-#EXTINF:-1 tvg-name="Lebron J / Stupaczuk F - Libaak V / Bautista J" group-title="Maç Yayınları",Lebron J / Stupaczuk F - Libaak V / Bautista J
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream170.m3u8
 #EXTINF:-1 tvg-name="Guillen Meza A - Vallejo A D" group-title="Maç Yayınları",Guillen Meza A - Vallejo A D
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream172.m3u8
-#EXTINF:-1 tvg-name="Cash J / Glasspool L - Granollers M / Zeballos H" group-title="Maç Yayınları",Cash J / Glasspool L - Granollers M / Zeballos H
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream186.m3u8
-#EXTINF:-1 tvg-name="Escobar G / Reyes-Varela M A - Andreozzi G / Kittay B" group-title="Maç Yayınları",Escobar G / Reyes-Varela M A - Andreozzi G / Kittay B
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream188.m3u8
-#EXTINF:-1 tvg-name="Kasnikowski M - Mmoh M" group-title="Maç Yayınları",Kasnikowski M - Mmoh M
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream244.m3u8
-#EXTINF:-1 tvg-name="Hu Victoria - Penickova A" group-title="Maç Yayınları",Hu Victoria - Penickova A
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream243.m3u8
 #EXTINF:-1 tvg-name="Lechno-Wasiutynski F - Cox N" group-title="Maç Yayınları",Lechno-Wasiutynski F - Cox N
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream212.m3u8
 #EXTINF:-1 tvg-name="Crespo Azconzabal A - Pavkova K" group-title="Maç Yayınları",Crespo Azconzabal A - Pavkova K
@@ -519,6 +431,26 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream242.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream183.m3u8
 #EXTINF:-1 tvg-name="Lilov V - Jankanj V" group-title="Maç Yayınları",Lilov V - Jankanj V
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream241.m3u8
+#EXTINF:-1 tvg-name="Gasanova A - Sieg M" group-title="Maç Yayınları",Gasanova A - Sieg M
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream245.m3u8
+#EXTINF:-1 tvg-name="Blanch Darwin - Azkara A" group-title="Maç Yayınları",Blanch Darwin - Azkara A
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream238.m3u8
+#EXTINF:-1 tvg-name="Brunkow G - Pisaric A" group-title="Maç Yayınları",Brunkow G - Pisaric A
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream206.m3u8
+#EXTINF:-1 tvg-name="Hontama M - Gomez O'Hayon V" group-title="Maç Yayınları",Hontama M - Gomez O'Hayon V
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream203.m3u8
+#EXTINF:-1 tvg-name="Tutoveanu E - Efimenko V" group-title="Maç Yayınları",Tutoveanu E - Efimenko V
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream199.m3u8
+#EXTINF:-1 tvg-name="Rodriguez C / Zeballos F - Drzewiecki K / Matuszewski P" group-title="Maç Yayınları",Rodriguez C / Zeballos F - Drzewiecki K / Matuszewski P
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream207.m3u8
+#EXTINF:-1 tvg-name="Day K - Feistel G" group-title="Maç Yayınları",Day K - Feistel G
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream240.m3u8
+#EXTINF:-1 tvg-name="Marginean A I / Sava I T - Goncharova A / Tattini M" group-title="Maç Yayınları",Marginean A I / Sava I T - Goncharova A / Tattini M
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream201.m3u8
+#EXTINF:-1 tvg-name="Fishback R / Zamora N - Genov A / Wallart E" group-title="Maç Yayınları",Fishback R / Zamora N - Genov A / Wallart E
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream200.m3u8
+#EXTINF:-1 tvg-name="Milavsky D - Broom C" group-title="Maç Yayınları",Milavsky D - Broom C
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivechstream204.m3u8
 #EXTINF:-1 tvg-name="Barrena A - Garin C" group-title="Maç Yayınları",Barrena A - Garin C
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290054098.m3u8
 #EXTINF:-1 tvg-name="Miyoshi K - Braswell M" group-title="Maç Yayınları",Miyoshi K - Braswell M
@@ -533,18 +465,18 @@ https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290582932.m3u8
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290398325.m3u8
 #EXTINF:-1 tvg-name="Martin Andres - Al Azmeh T" group-title="Maç Yayınları",Martin Andres - Al Azmeh T
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290398339.m3u8
-#EXTINF:-1 tvg-name="Ruehl T / Zahraj P - Aguilar J C / Boulais J" group-title="Maç Yayınları",Ruehl T / Zahraj P - Aguilar J C / Boulais J
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586658.m3u8
 #EXTINF:-1 tvg-name="Martin D - Rice K" group-title="Maç Yayınları",Martin D - Rice K
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289930397.m3u8
+#EXTINF:-1 tvg-name="Ruehl T / Zahraj P - Aguilar J C / Boulais J" group-title="Maç Yayınları",Ruehl T / Zahraj P - Aguilar J C / Boulais J
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586658.m3u8
 #EXTINF:-1 tvg-name="Delaney Jake - Matsuoka H" group-title="Maç Yayınları",Delaney Jake - Matsuoka H
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290486184.m3u8
 #EXTINF:-1 tvg-name="Duncan S / MacKinlay J - Miyoshi K / Okonkwo O" group-title="Maç Yayınları",Duncan S / MacKinlay J - Miyoshi K / Okonkwo O
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290582933.m3u8
-#EXTINF:-1 tvg-name="Catry R / McCormick T - Harper C / Thomson C" group-title="Maç Yayınları",Catry R / McCormick T - Harper C / Thomson C
-https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586662.m3u8
 #EXTINF:-1 tvg-name="Draxl L / Muamba N - Kingsley C / Maginley J" group-title="Maç Yayınları",Draxl L / Muamba N - Kingsley C / Maginley J
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586659.m3u8
+#EXTINF:-1 tvg-name="Catry R / McCormick T - Harper C / Thomson C" group-title="Maç Yayınları",Catry R / McCormick T - Harper C / Thomson C
+https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech289586662.m3u8
 #EXTINF:-1 tvg-name="Tomic B - Sweeny Dane" group-title="Maç Yayınları",Tomic B - Sweeny Dane
 https://andro.okan11gote12sokan.cfd/checklist/androstreamlivech290486183.m3u8
 #EXTINF:-1 tvg-name="Wu Tung-Lin - Overbeck C E" group-title="Maç Yayınları",Wu Tung-Lin - Overbeck C E
