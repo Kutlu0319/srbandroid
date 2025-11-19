@@ -1,34 +1,36 @@
-name: AndroIPTV
+name: Auto Commit and Push
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"   # her 10 dakikada bir
-  workflow_dispatch:          # manuel çalıştırma için
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  build:
+  auto-push:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Repo indir
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
-      - name: Python kur
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
 
-      - name: Gerekli paketler
-        run: pip install requests
+    - name: Pull latest changes
+      run: git pull origin main --rebase
 
-      - name: IPTV M3U oluştur
-        run: python androiptv.py
+    - name: Run Python script
+      run: python androiptv.py
 
-      - name: Değişiklikleri commit et
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          # Hem toplu dosya, hem de channels klasörü commit edilir
-          git add androiptv.m3u8
-          git add channels/*.m3u8
-          git commit -m "Update IPTV listeleri" || echo "No changes"
-          git push
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Automated update from androiptv.py [ci skip]" || echo "No changes to commit"
+
+    - name: Push changes
+      run: git push origin main
