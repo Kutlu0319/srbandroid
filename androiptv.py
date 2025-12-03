@@ -2,36 +2,54 @@ import os
 import requests
 import re
 
-# Domain aralığı (25–99)
+# -----------------------------
+# 1. Aktif domaini bul
+# -----------------------------
 active_domain = None
+
 for i in range(25, 100):
     url = f"https://birazcikspor{i}.xyz/"
     try:
-        r = requests.head(url, timeout=5)
-        if r.status_code == 200:
+        r = requests.get(url, timeout=5)
+        if r.status_code == 200 and "matchPlayer" in r.text:
             active_domain = url
+            print("✓ Aktif domain bulundu:", active_domain)
             break
     except:
-        continue
+        pass
 
 if not active_domain:
-    raise SystemExit("Aktif domain bulunamadı.")
+    raise SystemExit("❌ Aktif domain bulunamadı. Siteler GET isteklerini engelliyor olabilir.")
 
-# İlk kanal ID'si al
+# -----------------------------
+# 2. İlk kanal ID'sini al
+# -----------------------------
 html = requests.get(active_domain, timeout=10).text
 m = re.search(r'<iframe[^>]+id="matchPlayer"[^>]+src="event\.html\?id=([^"]+)"', html)
+
 if not m:
-    raise SystemExit("Kanal ID bulunamadı.")
+    raise SystemExit("❌ Kanal ID bulunamadı. HTML yapısı değişmiş olabilir.")
+
 first_id = m.group(1)
+print("✓ İlk ID bulundu:", first_id)
 
-# Base URL çek
-event_source = requests.get(active_domain + "event.html?id=" + first_id, timeout=10).text
-b = re.search(r'var\s+baseurls\s*=\s*\[\s*"([^"]+)"', event_source)
+# -----------------------------
+# 3. Base URL al
+# -----------------------------
+event_url = active_domain + "event.html?id=" + first_id
+event_source = requests.get(event_url, timeout=10).text
+
+b = re.search(r'var\s+baseurls?\s*=\s*\[\s*"([^"]+)"', event_source)
+
 if not b:
-    raise SystemExit("Base URL bulunamadı.")
-base_url = b.group(1)
+    raise SystemExit("❌ Base URL bulunamadı. event.html yapısı değişmiş olabilir.")
 
-# Kanal listesi (tam siyahın saxlanıldı)
+base_url = b.group(1)
+print("✓ Base URL bulundu:", base_url)
+
+# -----------------------------
+# 4. Kanal listesi
+# -----------------------------
 channels = [
     ("beIN Sport 1 HD","androstreamlivebs1","https://i.hizliresim.com/8xzjgqv.jpg"),
     ("beIN Sport 2 HD","androstreamlivebs2","https://i.hizliresim.com/8xzjgqv.jpg"),
@@ -71,19 +89,22 @@ channels = [
     ("Exxen 8 HD","androstreamliveexn8","https://i.hizliresim.com/8xzjgqv.jpg"),
 ]
 
-# ✅ Toplu M3U faylı (androiptv.m3u8)
+# -----------------------------
+# 5. Toplu M3U oluştur
+# -----------------------------
 lines = ["#EXTM3U"]
 for name, cid, logo in channels:
     lines.append(f'#EXTINF:-1 tvg-id="sport.tr" tvg-name="TR:{name}" tvg-logo="{logo}" group-title="DeaTHLesS",TR:{name}')
-    full_url = f"{base_url}{cid}.m3u8"
-    lines.append(full_url)
+    lines.append(f"{base_url}{cid}.m3u8")
 
 with open("androiptv.m3u8", "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
-print("✅ androiptv.m3u8 faylı yaradıldı.")
+print("✓ Toplu androiptv.m3u8 oluşturuldu.")
 
-# ✅ Ayrı-ayrı .m3u8 faylları
+# -----------------------------
+# 6. Tek tek M3U dosyaları
+# -----------------------------
 out_dir = "channels"
 os.makedirs(out_dir, exist_ok=True)
 
@@ -101,4 +122,4 @@ for name, cid, logo in channels:
     with open(os.path.join(out_dir, file_name), "w", encoding="utf-8") as f:
         f.write("\n".join(content))
 
-print(f"✅ {len(channels)} kanal ayrıca '{out_dir}' qovluğuna .m3u8 faylı olaraq yazıldı.")
+print(f"✓ {len(channels)} kanal ayrı ayrı '{out_dir}' klasörüne yazıldı.")
