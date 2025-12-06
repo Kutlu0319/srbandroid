@@ -1,12 +1,6 @@
 #EXTM3U
 #EXT-X-USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXT-X-ORIGIN:https://taraftarium24.xyz
-#EXTINF:-1 tvg-name="Rams Başakşehir - Fenerbahçe" group-title="Maç Yayınları",Rams Başakşehir - Fenerbahçe
-https://andro.2385437.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 tvg-name="Inter - Como" group-title="Maç Yayınları",Inter - Como
-https://andro.2385437.xyz/checklist/androstreamlivets1.m3u8
-#EXTINF:-1 tvg-name="SP Burgos - Murcia" group-title="Maç Yayınları",SP Burgos - Murcia
-https://andro.2385437.xyz/checklist/androstreamlivesm1.m3u8
 #EXTINF:-1 tvg-name="Real Betis - Barcelona" group-title="Maç Yayınları",Real Betis - Barcelona
 https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
 #EXTINF:-1 tvg-name="Leipzig - Eintracht Frankfurt" group-title="Maç Yayınları",Leipzig - Eintracht Frankfurt
