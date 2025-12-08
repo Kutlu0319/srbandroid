@@ -38,10 +38,6 @@ https://andro.2385437.xyz/checklist/androstreamlivechstream123.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivechstream123.m3u8
 #EXTINF:-1 tvg-name="Barcelona - Eintracht Frankfurt (23:00)" group-title="Maç Yayınları",Barcelona - Eintracht Frankfurt (23:00)
 https://andro.2385437.xyz/checklist/androstreamlivetb.m3u8
-#EXTINF:-1 tvg-name="Barnaul - Sochi (14:00)" group-title="Maç Yayınları",Barnaul - Sochi (14:00)
-https://andro.2385437.xyz/checklist/androstreamlivechstream14.m3u8
-#EXTINF:-1 tvg-name="Barnaul - Sochi (14:00)" group-title="Maç Yayınları",Barnaul - Sochi (14:00)
-https://andro.2385437.xyz/checklist/androstreamlivechstream14.m3u8
 #EXTINF:-1 tvg-name="Bassols Ribera M - Leonard M (12:00)" group-title="Maç Yayınları",Bassols Ribera M - Leonard M (12:00)
 https://andro.2385437.xyz/checklist/androstreamlivech300543861.m3u8
 #EXTINF:-1 tvg-name="Bassols Ribera M - Leonard M (12:00)" group-title="Maç Yayınları",Bassols Ribera M - Leonard M (12:00)
@@ -166,10 +162,6 @@ https://andro.2385437.xyz/checklist/androstreamliveexn.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivechstream206.m3u8
 #EXTINF:-1 tvg-name="Fanselow S - Rodeia A (11:30)" group-title="Maç Yayınları",Fanselow S - Rodeia A (11:30)
 https://andro.2385437.xyz/checklist/androstreamlivechstream206.m3u8
-#EXTINF:-1 tvg-name="Farul Constanta (w) - Atletic Olimpia Gherla (w) (13:00)" group-title="Maç Yayınları",Farul Constanta (w) - Atletic Olimpia Gherla (w) (13:00)
-https://andro.2385437.xyz/checklist/androstreamlivechstream117.m3u8
-#EXTINF:-1 tvg-name="Farul Constanta (w) - Atletic Olimpia Gherla (w) (13:00)" group-title="Maç Yayınları",Farul Constanta (w) - Atletic Olimpia Gherla (w) (13:00)
-https://andro.2385437.xyz/checklist/androstreamlivechstream117.m3u8
 #EXTINF:-1 tvg-name="Fb Tv" group-title="Diğer",Fb Tv
 https://andro.2385437.xyz/checklist/androstreamlivefb.m3u8
 #EXTINF:-1 tvg-name="Fb Tv" group-title="Diğer",Fb Tv
@@ -218,6 +210,10 @@ https://andro.2385437.xyz/checklist/androstreamlivetb.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivech300634539.m3u8
 #EXTINF:-1 tvg-name="Jacquemot E / Ponchet J - Kempen M / Siskova A (21:00)" group-title="Maç Yayınları",Jacquemot E / Ponchet J - Kempen M / Siskova A (21:00)
 https://andro.2385437.xyz/checklist/androstreamlivech300634539.m3u8
+#EXTINF:-1 tvg-name="Jedrzejczak J - Marosik N (14:45)" group-title="Maç Yayınları",Jedrzejczak J - Marosik N (14:45)
+https://andro.2385437.xyz/checklist/androstreamlivechstream205.m3u8
+#EXTINF:-1 tvg-name="Jedrzejczak J - Marosik N (14:45)" group-title="Maç Yayınları",Jedrzejczak J - Marosik N (14:45)
+https://andro.2385437.xyz/checklist/androstreamlivechstream205.m3u8
 #EXTINF:-1 tvg-name="Jimenez Kasintseva V - Siskova A (12:00)" group-title="Maç Yayınları",Jimenez Kasintseva V - Siskova A (12:00)
 https://andro.2385437.xyz/checklist/androstreamlivech300495108.m3u8
 #EXTINF:-1 tvg-name="Jimenez Kasintseva V - Siskova A (12:00)" group-title="Maç Yayınları",Jimenez Kasintseva V - Siskova A (12:00)
@@ -244,6 +240,10 @@ https://andro.2385437.xyz/checklist/androstreamlivechstream141.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivech300438383.m3u8
 #EXTINF:-1 tvg-name="Korpatsch T - Ruzic A (12:00)" group-title="Maç Yayınları",Korpatsch T - Ruzic A (12:00)
 https://andro.2385437.xyz/checklist/androstreamlivech300438383.m3u8
+#EXTINF:-1 tvg-name="Kuwait U23 - Saudi Arabia U23 (14:45)" group-title="Maç Yayınları",Kuwait U23 - Saudi Arabia U23 (14:45)
+https://andro.2385437.xyz/checklist/androstreamlivechstream143.m3u8
+#EXTINF:-1 tvg-name="Kuwait U23 - Saudi Arabia U23 (14:45)" group-title="Maç Yayınları",Kuwait U23 - Saudi Arabia U23 (14:45)
+https://andro.2385437.xyz/checklist/androstreamlivechstream143.m3u8
 #EXTINF:-1 tvg-name="LA Chargers - Philadelphia Eagles (04:15)" group-title="Maç Yayınları",LA Chargers - Philadelphia Eagles (04:15)
 https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
 #EXTINF:-1 tvg-name="LKS Lodz (w) - Chemik Police (w) (20:55)" group-title="Maç Yayınları",LKS Lodz (w) - Chemik Police (w) (20:55)
@@ -524,22 +524,10 @@ https://andro.2385437.xyz/checklist/androstreamlivets1.m3u8
 https://andro.2385437.xyz/checklist/androstreamlivechstream116.m3u8
 #EXTINF:-1 tvg-name="Udinese - Genoa (20:00)" group-title="Maç Yayınları",Udinese - Genoa (20:00)
 https://andro.2385437.xyz/checklist/androstreamlivechstream116.m3u8
-#EXTINF:-1 tvg-name="Uralmash 2 - MBA-MAI 2 (13:00)" group-title="Maç Yayınları",Uralmash 2 - MBA-MAI 2 (13:00)
-https://andro.2385437.xyz/checklist/androstreamlivechstream17.m3u8
-#EXTINF:-1 tvg-name="Uralmash 2 - MBA-MAI 2 (13:00)" group-title="Maç Yayınları",Uralmash 2 - MBA-MAI 2 (13:00)
-https://andro.2385437.xyz/checklist/androstreamlivechstream17.m3u8
-#EXTINF:-1 tvg-name="Vachkova V - Pavkova K (13:30)" group-title="Maç Yayınları",Vachkova V - Pavkova K (13:30)
-https://andro.2385437.xyz/checklist/androstreamlivechstream204.m3u8
-#EXTINF:-1 tvg-name="Vachkova V - Pavkova K (13:30)" group-title="Maç Yayınları",Vachkova V - Pavkova K (13:30)
-https://andro.2385437.xyz/checklist/androstreamlivechstream204.m3u8
 #EXTINF:-1 tvg-name="Vanoli Cremona - Varese (19:30)" group-title="Maç Yayınları",Vanoli Cremona - Varese (19:30)
 https://andro.2385437.xyz/checklist/androstreamlivech300543856.m3u8
 #EXTINF:-1 tvg-name="Vanoli Cremona - Varese (19:30)" group-title="Maç Yayınları",Vanoli Cremona - Varese (19:30)
 https://andro.2385437.xyz/checklist/androstreamlivech300543856.m3u8
-#EXTINF:-1 tvg-name="Vedder E - Parks A (16:30)" group-title="Maç Yayınları",Vedder E - Parks A (16:30)
-https://andro.2385437.xyz/checklist/androstreamlivech300495109.m3u8
-#EXTINF:-1 tvg-name="Vedder E - Parks A (16:30)" group-title="Maç Yayınları",Vedder E - Parks A (16:30)
-https://andro.2385437.xyz/checklist/androstreamlivech300495109.m3u8
 #EXTINF:-1 tvg-name="Virtus Bologna - Derthona (20:30)" group-title="Maç Yayınları",Virtus Bologna - Derthona (20:30)
 https://andro.2385437.xyz/checklist/androstreamlivechstream92.m3u8
 #EXTINF:-1 tvg-name="Virtus Bologna - Derthona (20:30)" group-title="Maç Yayınları",Virtus Bologna - Derthona (20:30)
