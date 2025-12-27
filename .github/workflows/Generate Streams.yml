@@ -1,3 +1,12 @@
+name: Generate Streams JSON
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 3 * * *'  # Her gün 03:00 UTC’de çalıştır
+
 jobs:
   build:
     runs-on: ubuntu-latest
