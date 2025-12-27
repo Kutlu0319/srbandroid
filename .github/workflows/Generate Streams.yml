@@ -1,0 +1,42 @@
+name: Generate Streams JSON
+
+# Workflow tetikleyicileri
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Her gün saat 03:00 UTC’de çalıştırır
+    - cron: '0 3 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Repository’i klonla
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 2️⃣ Python kurulumu
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    # 3️⃣ Gerekli paketleri yükle
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    # 4️⃣ Scripti çalıştır
+    - name: Run stream fetcher
+      run: python srl_as.py
+
+    # 5️⃣ JSON dosyasını artifact olarak sakla (opsiyonel)
+    - name: Upload JSON
+      uses: actions/upload-artifact@v3
+      with:
+        name: streams-json
+        path: streams.json
